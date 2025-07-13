@@ -77,7 +77,7 @@ special_checkbox = tk.Checkbutton(root, text="Використовувати с�
                                   activeforeground=FG_COLOR)
 special_checkbox.pack(pady=5)
 
-tk.Button(root, text="Генераторуємо"
+tk.Button(root, text="Генеруємо"
                      "", command=on_generate, bg=BTN_COLOR, fg=FG_COLOR).pack(pady=10)
 
 result_var = tk.StringVar()
